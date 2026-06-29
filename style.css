@@ -12,7 +12,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Glowing Form Container */
 /* Responsive Form Container */
 .container {
     background: rgba(15, 23, 42, 0.85);
@@ -26,7 +25,7 @@ body {
     flex-direction: column;
     gap: 1.5rem;
 }
-/* Switch to side-by-side columns on tablets or desktops */
+
 /* Switch to side-by-side columns on desktops */
 @media (min-width: 768px) {
     .container {
@@ -35,6 +34,7 @@ body {
         padding: 2rem;
     }
 }
+
 /* Neon Glow Button */
 .glow-btn {
     background: linear-gradient(90deg, #38bdf8, #a855f7);
@@ -53,7 +53,9 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 0 25px rgba(56, 189, 248, 0.6);
 }
+
 /* Hide elements until needed */
 .hidden {
     display: none !important;
 }
+
