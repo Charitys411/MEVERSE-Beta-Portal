@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEVERSE Founder List - Closed Beta Access</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <!-- Left Side: Branding & Info -->
+        <div class="branding-side">
+            <img src="8484.png" alt="MEVERSE Logo" class="logo">
+            <h1>THE MEVERSE FOUNDER LIST</h1>
+            <p class="subtitle">Join the closed beta. Enter your info below to claim your unique Android tester access code instantly.</p>
+            
+            <div class="rewards-box">
+                <h3>🎁 FOUNDER GIFT</h3>
+                <p>Early testers receive a special in-game reward after public launch.</p>
+            </div>
+        </div>
+
+        <!-- Right Side: Registration Form -->
+        <div class="form-side">
+            <form id="beta-form">
+                <div class="input-group">
+                    <label for="email">GOOGLE PLAY EMAIL</label>
+                    <input type="email" id="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" placeholder="Optional">
+                    </div>
+                    <div class="input-group">
+                        <label for="handle">HANDLE</label>
+                        <input type="text" id="handle" placeholder="@yourname">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="devices">TEST DEVICES / AVAILABILITY</label>
+                    <input type="text" id="devices" placeholder="e.g., Pixel 7, Galaxy S23" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="feedback">WHAT DO YOU WANT TO TEST?</label>
+                    <textarea id="feedback" placeholder="Battles, trading, cards, store, rewards..."></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="consent" required>
+                    <label for="consent">I give permission to contact me about MEVERSE closed testing using this Google Play email.</label>
+                </div>
+
+                <button type="submit" class="glow-btn">JOIN FOUNDER LIST</button>
+            </form>
+
+            <!-- Code Display Area (Hidden initially) -->
+            <div id="code-display" class="hidden">
+                <h2>✨ YOUR ACCESS CODE SECURED ✨</h2>
+                <div class="access-code" id="unique-code">LOADING...</div>
+                <p>Copy this code and redeem it on the Google Play Store to install the app!</p>
+                <a href="#" id="redeem-link" class="redeem-btn" target="_blank">Open Google Play Redeem Screen</a>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+add add index.html structure
