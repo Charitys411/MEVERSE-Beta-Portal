@@ -38,7 +38,7 @@ document.getElementById('beta-form').addEventListener('submit', async function(e
 
         // Set up the official Google Play redemption link
         // Replace 'YOUR_APP_PACKAGE_NAME' with your actual Android package name later
-        const playRedeemUrl = `https://play.google.com/store/apps/details?id=YOUR_APP_PACKAGE_NAME&code=${assignedCode}`;
+        const playRedeemUrl = `https://play.google.com/store/apps/details?id=com.meverse.game&code=${assignedCode}`;
         document.getElementById('redeem-link').href = playRedeemUrl;
 
     } catch (error) {
