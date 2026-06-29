@@ -26,28 +26,14 @@ body {
     flex-direction: column;
     gap: 1.5rem;
 }
-
 /* Switch to side-by-side columns on tablets or desktops */
+/* Switch to side-by-side columns on desktops */
 @media (min-width: 768px) {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 2rem;
     }
-}
-
-
-/* Neon Glow Button */
-.glow-btn {
-    background: linear-gradient(90deg, #38bdf8, #a855f7);
-    color: white;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
-    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
-    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .glow-btn:hover {
