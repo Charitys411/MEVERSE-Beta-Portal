@@ -13,18 +13,29 @@ body {
 }
 
 /* Glowing Form Container */
+/* Responsive Form Container */
 .container {
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(15, 23, 42, 0.85);
     border: 2px solid #38bdf8;
     box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
     border-radius: 12px;
-    padding: 2rem;
+    padding: 1.5rem;
     max-width: 900px;
     width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
+
+/* Switch to side-by-side columns on tablets or desktops */
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+    }
+}
+
 
 /* Neon Glow Button */
 .glow-btn {
