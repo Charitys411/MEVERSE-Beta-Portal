@@ -54,3 +54,7 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 0 25px rgba(56, 189, 248, 0.6);
 }
+/* Hide elements until needed */
+.hidden {
+    display: none !important;
+}
